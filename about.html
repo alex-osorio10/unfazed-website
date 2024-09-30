@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - UNFAZED</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="photos/unfazed.png" type="image/png">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-left">
+            <p class="header-text">EST. 2022<br>DON'T LET IT AFFECT</p>
+        </div>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="https://i.postimg.cc/Rhgp2NGx/logo.png" alt="LOGO Shop Logo">
+            </a>
+        </div>
+        <div class="header-right">
+            <nav>
+                <ul>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="display.html">View</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="about-page">
+        <div class="about-box">
+            <section class="about-section">
+                <h1>About UNFAZED</h1>
+                <p>UNFAZED was founded in 2022 with a passion for high-quality apparel and a mission to blend style, comfort, and individuality. What started as a simple idea to create clothes reflecting personal expression quickly grew into a full-fledged brand. Built on the values of authenticity, resilience, and creativity, UNFAZED is dedicated to helping people stand out while staying true to themselves.</p>
+                <p>Each piece, from iconic hoodies to tees, is designed with care and attention to detail, ensuring comfort, style, and durability. UNFAZED is more than a brand—it's a reflection of the belief that we all have the power to define our own paths. Join us on this journey, where individuality meets fashion and lifestyle.</p>
+                <p>Don't let it affect.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-left">© UNFAZED<br>Don't Let It Affect</div>
+        <div class="footer-center">
+            <button class="social-media-button" onclick="window.location.href='https://www.facebook.com'"><img src="photos/facebook.png" alt="Facebook"></button>
+            <button class="social-media-button" onclick="window.location.href='https://www.instagram.com'"><img src="photos/instagram.png" alt="Instagram"></button>
+            <button class="social-media-button" onclick="window.location.href='https://www.youtube.com'"><img src="photos/youtube.png" alt="YouTube"></button>
+        </div>
+        <div class="footer-right">
+            <button class="subscribe-now">Subscribe to our newsletter</button>
+        </div>
+    </footer>
+
+    <div id="subscribeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Get 10% Off Your Next Order When You Sign Up.</p>
+            <form id="subscribeForm">
+                <label for="email">Your Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Claim Offer</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
